@@ -3,6 +3,10 @@ import { Redirect, Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import UserService from '../services/user.service';
 
+
+
+
+
 const Appointments = () => {
   const [content, setContent] = useState('');
   const [loading, setLoading] = useState(true);
